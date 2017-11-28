@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="menu">
+    <meta name="keywords" content="menu">
+    <meta name="author" content="V.Anoyan and R.Festa">
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Menu</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/default.css" rel="stylesheet" type="text/css">
+    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css">
+    <link href="css/flexslider.css" rel="stylesheet" type="text/css">
+    <link href="css/flexslider.custom.css" rel="stylesheet" type="text/css">
+    <link href="fonts/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two|Pinyon+Script|Satisfy|Shrikhand|Yellowtail" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/css/bootstrapValidator.min.css"/>
+
+</head>
+<body>
+<div class="container-fluid bodi">
+    <div class="container">
+        <h2>Hotel Name</h2>
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#home">New Orders</a></li>
+            <li><a data-toggle="tab" href="#menu2">Daily Done</a></li>
+            <li><a data-toggle="tab" href="#menu3">Order History</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+                <div class="col-md-12 col-sm-12 col-xs-12 NewOrder">
+                    <h3>Room number 1</h3>
+                    <span>12-Feb-2017</span> <span>Time 13:44</span>
+                    <button class="showOrder" data-toggle="collapse" data-target="#shop">new order</button>
+                    <div id="shop" class="collapse">
+                        <table class="table table-bordered">
+                            <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>number</th>
+                                <th>Price</th>
+                                <th><i class="fa fa-ban" aria-hidden="true"></i></th>
+                                <th><i class="fa fa-check" aria-hidden="true"></i></th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Ice Coffee <button class="cloesShop pull-right" data-toggle="collapse" data-target="#note"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                                    <div id="note" class="collapse">
+                                        <div class="messageAdmin">user message</div>
+                                    </div>
+                                </td>
+                                <td>2</td>
+                                <td>8 $</td>
+                                <td><button id="delete"><i class="fa fa-trash-o" aria-hidden="true"></i></button></td>
+                                <td><input type="checkbox"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Ice Coffee <button class="cloesShop pull-right" data-toggle="collapse" data-target="#note1"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                                    <div id="note1" class="collapse">
+                                        <div class="messageAdmin">user message</div>
+                                    </div>
+                                </td>
+                                <td>2</td>
+                                <td>11 $</td>
+                                <td><button id="delete"><i class="fa fa-trash-o" aria-hidden="true"></i></button></td>
+                                <td><input type="checkbox"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Ice Coffee <button class="cloesShop pull-right" data-toggle="collapse" data-target="#note2"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                                    <div id="note2" class="collapse">
+                                        <div class="messageAdmin">user message</div>
+                                    </div>
+                                </td>
+                                <td>2</td>
+                                <td>13 $</td>
+                                <td><button id="delete"><i class="fa fa-trash-o" aria-hidden="true"></i></button></td>
+                                <td><input type="checkbox"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td colspan="2">Ballance</td>
+                                <td colspan="2">58 $</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <button class="tdOrder">Done</button>
+                    </div>
+                </div>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            </div>
+            <div id="menu3" class="tab-pane fade">
+                <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery -->
+<script src="js/jquery-1.11.2.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Slider -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- home JavaScript -->
+<script src="js/js.js"></script>
+<!-- FlexSlider -->
+<script type="text/javascript" src="js/flexslider/jquery.flexslider.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/js/bootstrapValidator.min.js"></script>
+
+</body>
+</html>
