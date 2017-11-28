@@ -348,6 +348,9 @@ li{
     width: 100%;
     padding: 20px;
 }
+.bodi .check{
+    margin-bottom: 50px;
+}
 .bodi .tdOrder{
     color: #b40000;
     border:1px solid #b40000;
@@ -896,7 +899,7 @@ li{
 }
 @media (min-width: 768px){
     .General .menuNav .side-collapse .navbar-nav{
-        margin-left: 100px;
+        margin-left: 170px;
     }
 }
 .General .menuNav .side-collapse a:hover{
@@ -925,6 +928,9 @@ li{
     position: absolute;
     top: 10px;
     right: 10px;
+}
+.General .Logo{
+    width: 100px;
 }
 .General .myBrendMD a{
     color: #fff;
