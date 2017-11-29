@@ -99,11 +99,11 @@ li{
     background:#e27900;
 }
 .menuNav .navbar{
-    background: #000000d6;
+    background-color: #000000d6;
 }
 @media screen and (max-width: 768px) {
     .menuNav .navbar-collapse{
-        background: #000000d6;
+        background-color: #000000d6;
     }
     .side-collapse-container {
         width: 100%;
