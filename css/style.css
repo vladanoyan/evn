@@ -364,8 +364,17 @@ li{
     margin: 0;
 
 }
-
-.bodi span{
+.DatePickerDoc input{
+    border: 1px solid #a09999;
+    color: #eca14c;
+    border-radius: 3px;
+}
+.DatePickerDoc{
+    padding: 15px;
+    padding-top: 0;
+    border-bottom: 1px solid #000;
+}
+.bodi .DateSpan{
     margin: 5px 0;
     color: #b40000;
     font-size: 14px;

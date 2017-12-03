@@ -1,3 +1,4 @@
+
 // counter
 function modify_qty(val) {
     var qty = document.getElementById('qty').value;
@@ -12,6 +13,7 @@ function modify_qty(val) {
 }
 // counter
 $(document).ready(function(){
+
 
     $('.ourSecondCarousel').owlCarousel({
         items:1,
