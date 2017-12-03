@@ -14,6 +14,13 @@ function modify_qty(val) {
 // counter
 $(document).ready(function(){
 
+// iconNav
+$(document).ready(function(){
+    $('#nav-icon1').click(function(){
+        $(this).toggleClass('open');
+    });
+});
+// IconNavEnd
 
     $('.ourSecondCarousel').owlCarousel({
         items:1,
